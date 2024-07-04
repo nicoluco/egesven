@@ -1,0 +1,91 @@
+.buttonForm {
+    background-color: #e45e3e; 
+    border-color: #e45e3e; 
+    color:white;
+    width: 100%;
+}
+
+.buttonForm:hover{
+    background-color: #e3866f;
+    color: white;
+    border-color:  #e3866f; 
+}
+
+.buttonFormCerrarSesion {
+    background-color: #b51f1f; 
+    border-color: #e45e3e; 
+    color:white;
+    width: 100%;
+}
+/* body {
+
+
+    background-image: url('./../img/fondo.jpg');
+    background-size: cover;
+    background-position: center; 
+
+     filter: blur(5px);
+} */
+.cajas {
+    background-color: white;
+    color: #102C57;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.452);
+
+  }
+.container{
+    max-width: 80%;
+    
+  }
+
+.container img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+
+
+.centrarBtn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttonFormLimpiar{
+    background-color: #665c59; 
+    border-color: #665c59; 
+    color:white;
+    width: 100%;
+}
+
+.buttonFormLimpiar:hover{
+    background-color: #4c4846;
+    color: white;
+    border-color: #4c4846; 
+}
+
+.colorLetraH1{
+    color: white;
+}
+
+
+body {
+    position: relative;
+    background-image: url('./../img/fondo.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(5px); /* Ajusta el valor de desenfoque según lo desees */
+    z-index: -1;
+    background-color: rgb(234, 222, 222); /* Ajusta el último valor (0.5) para cambiar la opacidad */
+}
