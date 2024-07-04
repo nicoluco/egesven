@@ -87,5 +87,5 @@ body::before {
     background: inherit;
     filter: blur(5px); /* Ajusta el valor de desenfoque según lo desees */
     z-index: -1;
-    background-color: rgb(234, 222, 222); /* Ajusta el último valor (0.5) para cambiar la opacidad */
+    background-color: rgb(127, 65, 65); /* Ajusta el último valor (0.5) para cambiar la opacidad */
 }
