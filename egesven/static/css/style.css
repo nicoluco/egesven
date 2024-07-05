@@ -89,3 +89,38 @@ body::before {
     z-index: -1;
     background-color: rgb(127, 65, 65); /* Ajusta el último valor (0.5) para cambiar la opacidad */
 }
+
+/* carrito */
+
+.carrito{
+    height: 25px;
+}
+nav i{
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+
+/* .busqueda{
+    color:black
+} */
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    /* right: -300px; */
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
