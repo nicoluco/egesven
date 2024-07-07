@@ -68,27 +68,23 @@
     color: white;
 }
 
+/* background-image: url('./../img/fondo.jpg'); */
 
-body {
-    position: relative;
-    background-image: url('./../img/fondo.jpg');
-    background-position: center;
-    background-size: cover;
-    
-}
+/* body, html {
+ 
 
-body::before {
-    content: "";
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: inherit;
-    filter: blur(5px); /* Ajusta el valor de desenfoque según lo desees */
+    filter: blur(5px);
     z-index: -1;
-    background-color: rgb(127, 65, 65); /* Ajusta el último valor (0.5) para cambiar la opacidad */
-}
+    background-color: rgb(219, 180, 180); 
+    
+} */
+
+
 
 /* carrito */
 

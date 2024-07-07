@@ -4,6 +4,12 @@ from django.shortcuts import redirect
 from django.contrib.auth.models import User
 
 # Create your views here.
+
+
+def index(request):
+    return render(request, "index.html")
+
+
 def productos(request):
     return render(request, 'index.html')
 
@@ -32,8 +38,6 @@ def ListaUsuario(request):
     return render(request, 'ListaUsuario.html',context)
 
 
-
-
 def flogin(request):
     context={}
 
@@ -57,12 +61,10 @@ def flogin(request):
     return render (request,'login.html',context)
 
 
-
 def flogout(request):
     logout(request)
 
     return redirect('login')
-
 
 
 def eliminarUsuario(request,username):
