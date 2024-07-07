@@ -137,7 +137,7 @@ function carritoHTML() {
             <td>${precio}</td>
             <td>${cantidad}</td>
             <td>
-                <a href="#" class ="borrar-libro fa-solid fa-trash " data-id="${id}"></a>
+                <a href="#" class ="borrar-libro fa-solid fa-trash custom-color" data-id="${id}"></a>
             </td>
             
         `;//crea un temple de string o de litera
