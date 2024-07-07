@@ -60,17 +60,17 @@
                     <div class="card-body">
                         <form id="formulario_registro" action="#" method="POST" enctype="multipart/form-data">
                           {% csrf_token %}
-                            <div class="mb-3">
+<!--                             <div class="mb-3">
                                 <label for="" class="form-label">Nombre<span style="color: rgb(139, 14, 14);">*</span></label>
                                 <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
                                 <small class="text-danger" id="nombre-error"></small>
-                            </div>
+                            </div> -->
 
-                            <div class="mb-3">
+<!--                             <div class="mb-3">
                                 <label for="" class="form-label">Apellido<span style="color: rgb(139, 14, 14);">*</span></label>
                                 <input type="text" class="form-control" name="apellido" placeholder="Ingresa tu apellido" id="apellido">
                                 <small class="text-danger" id="apellido-error"></small>
-                            </div>
+                            </div> -->
 
                             <div class="mb-3">
                                 <label for="" class="form-label">Nombre Usuario<span style="color: rgb(139, 14, 14);">*</span></label>
@@ -83,29 +83,29 @@
                                 <input type="email" class="form-control" name="email" id="email" placeholder="Ingresa tu correo">
                                 <small class="text-danger" id="email-error"></small>
                             </div>
-                            <div class="mb-3">
+<!--                             <div class="mb-3">
                               <label for="" class="form-label"> Teléfono<span style="color: rgb(139, 14, 14);">*</span></label>
                               <input type="tel"  class="form-control" name="telefono" id="telefono" placeholder="Ingresa tu teléfono">
                               <small class="text-danger" id="email-error"></small>
-                            </div>
+                            </div> -->
 
                             <div class="mb-3">
                                 <label for="" class="form-label">Contraseña<span style="color: rgb(139, 14, 14);">*</span></label>
                                 <input type="password" class="form-control" name="pass" placeholder="Ingresa tu constraseña" id="pass">
                                 <small class="text-danger" id="pass-error"></small>
                             </div>
-
+<!-- 
                             <div class="mb-3">
                                 <label for="" class="form-label">Repetir Contraseña<span style="color: rgb(139, 14, 14);">*</span></label>
                                 <input type="password" class="form-control" name="pass-rep" placeholder="Repite tu contraseña" id="pass-rep">
                                 <small class="text-danger" id="pass-rep-error"></small>
-                            </div>
+                            </div> -->
 
 
                             <div class="gap-2 d-md-flex  ">
                                 <div class="centrarBtn">
-                                    <div type="submit" class="btn btn-danger buttonForm me-md-2">Enviar</div>
-                                    <div type="reset" class="btn btn-danger buttonFormLimpiar">Limpiar</div>
+                                    <button type="submit" class="btn btn-danger buttonForm me-md-2">Enviar</button>
+<!--                                     <div type="reset" class="btn btn-danger buttonFormLimpiar">Limpiar</div> -->
                                 </div> 
                               
                             </div>
