@@ -6,10 +6,10 @@ urlpatterns = [
     path('login', flogin, name="login"),
     path('registro', registro, name="registro"),
     path('perfil', perfil, name="perfil"),
-    path('ListaUsuario', ListaUsuario, name="ListaUsuario"),
+    path('ListaUsuario/', ListaUsuario, name="ListaUsuario"),
     path('ListaProducto', ListaProducto, name="ListaProducto"),
     path('logout/', flogout,name="logout"),
     path('eliminarUsuario/<str:username>/', eliminarUsuario, name="eliminarUsuario"),
-    path('editarUsuario/<str:username>/', editarUsuario, name="editarUsuario")
+    path('editarUsuario/<str:username>/', editarUsuario, name="editarUsuario"),
 
 ]

@@ -77,9 +77,9 @@ def editarUsuario(request,username):
     if(request.method=='POST'):
         Usuario.username = request.POST.get('new-nombre-usuario')
         Usuario.save()
-        return redirect('ListaUsuario.html')
+        return redirect('ListaUsuario')
+        
     
-
     context={}
     context['user']= Usuario
 
